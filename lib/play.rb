@@ -48,5 +48,6 @@ def play(board)
   turn = 0
   until turn == 9
     puts "Game Over"
+    turn += 1
   end
 end
